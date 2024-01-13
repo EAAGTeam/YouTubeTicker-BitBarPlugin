@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - socialblade-data > request > mime:
+        patched: '2024-01-13T17:03:43.283Z'
+        id: 'npm:mime:20170907'
+        path: socialblade-data > request > mime
+    - socialblade-data > request > form-data > mime:
+        patched: '2024-01-13T17:03:43.283Z'
+        id: 'npm:mime:20170907'
+        path: socialblade-data > request > form-data > mime
+  'npm:qs:20140806-1':
+    - socialblade-data > request > qs:
+        patched: '2024-01-13T17:03:43.283Z'
+        id: 'npm:qs:20140806-1'
+        path: socialblade-data > request > qs
+  'npm:request:20160119':
+    - socialblade-data > request:
+        patched: '2024-01-13T17:03:43.283Z'
+        id: 'npm:request:20160119'
+        path: socialblade-data > request
